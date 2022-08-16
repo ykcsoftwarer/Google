@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+  gap: 13px;
+  font-size: 15px;
+}
+
+.navbar a{
+  line-height: 1.5rem;
+}
+
+.menu-mails{
+  background-color: green;
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.search-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-input input{
+  border: 1px solid #DFE1E5;
+  outline-style: none;
+  width: 524px;
+  padding: 13px;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 25px;
+  padding-left: 50px;
+}
+
+.search-input input:hover{
+  box-shadow: 3px 2px 3px #888888;
+}
+
+.magnifying{
+  margin-right: -40px;
+  z-index: 1;
+}
+
+.microphone{
+  margin-left: -40px;
+  z-index: 1;
+}
+
+
+.button-area{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.button-area button{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button-area button:hover{
+  box-shadow: 2px 1px 2px #888888b0;
+}
+
+.language{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
